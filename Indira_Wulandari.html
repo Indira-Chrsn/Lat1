@@ -10,9 +10,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <style>
+      .H2 {
+        font-family: "Times New Roman", Times, serif;
+      }
+    </style>
   </head>
   <body>
-    <h1 class="Title">Indira Wulandari Chrisna</h1>
+    <h1 class="H2">Indira Wulandari Chrisna</h1>
 
     <!-- Foto dan Data diri -->
     <section>
@@ -27,7 +32,7 @@
 
     <!-- Personal Profile -->
     <section>
-      <h2 class="Title">Personal Profile</h2>
+      <h2 class="H2">Personal Profile</h2>
       <p id="idprofile">
         I'm a student majoring in Informatics in one of Indonesia's private
         University in Bandung. <br />
@@ -38,21 +43,21 @@
 
     <!-- Education -->
     <section>
-      <h2>Education</h2>
+      <h2 class="H2">Education</h2>
 
-      <h3>Telkom University</h3>
+      <h4>Telkom University</h4>
       <p>majoring in Informatics.</p>
     </section>
 
     <!-- Pengalaman Kerja -->
     <section>
-      <h2>Pengalaman Kerja</h2>
+      <h2 class="H2">Working Experience</h2>
       <p>-</p>
     </section>
 
     <!-- Skill Tambahan -->
     <section>
-      <h2>Additional Skill</h2>
+      <h2 class="H2">Additional Skill</h2>
       <ul>
         <li>Basic C++</li>
         <li>Basic Golang</li>
@@ -61,7 +66,7 @@
 
     <!-- Interest -->
     <section>
-      <h2>Interest</h2>
+      <h2 class="H2">Interest</h2>
       <ol>
         <li>Reading Novels</li>
         <li>Listening to music</li>
@@ -70,32 +75,48 @@
 
     <!-- Pengalaman Organisasi -->
     <section>
-      <h2>Organization Experience</h2>
-      <table>
-        <tr>
-          <th>Nama Organisasi</th>
-          <th>Jabatan</th>
-          <th>Tahun Keanggotaan</th>
-        </tr>
-        <tr>
-          <td>OSIS SMA</td>
-          <td>Wakil Ketua Sekbid 6</td>
-          <td>2017-2018</td>
-        </tr>
-        <tr>
-          <td>OSIS SMA</td>
-          <td>Ketua Sekbid 6</td>
-          <td>2018-2019</td>
-        </tr>
+      <h2 class="H2">Organization Experience</h2>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th style="text-align: center">Nama Organisasi</th>
+            <th style="text-align: center">Jabatan</th>
+            <th style="text-align: center">Tahun Keanggotaan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>OSIS SMA</td>
+            <td>Wakil Ketua Sekbid 6</td>
+            <td>2017-2018</td>
+          </tr>
+          <tr>
+            <td>OSIS SMA</td>
+            <td>Ketua Sekbid 6</td>
+            <td>2018-2019</td>
+          </tr>
+        </tbody>
       </table>
     </section>
 
     <!-- Link Linkedin -->
     <section>
-      <h2 id="Linkedin">Link to my Linkedin</h2>
-      <a href="https://www.linkedin.com/in/indira-wulandari-761101230"
+      <h2 class="H2">Link to my Linkedin</h2>
+      <a
+        href="https://www.linkedin.com/in/indira-wulandari-761101230"
+        class="btn btn-primary"
         >Click Here</a
       >
+      <!-- <a
+        href="https://www.linkedin.com/in/indira-wulandari-761101230"
+        class="btn btn-primary btn-lg active"
+        role="button"
+        aria-pressed="true"
+        >Click Here</a
+      > -->
+      <!-- <a href="https://www.linkedin.com/in/indira-wulandari-761101230"
+        >Click Here</a
+      > -->
     </section>
   </body>
 </html>
