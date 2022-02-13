@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      #navText {
+        font-family: "Times New Roman", Times, serif;
+        color: black;
+      }
+      .navbar- {
+        background-image: linear-gradient(
+          180deg,
+          rgba(115, 140, 123, 0) 0%,
+          rgba(50, 188, 232, 0.345324) 4.17%,
+          #6c858d 83.33%
+        );
+      }
+
+      body {
+        background-color: #f4ecec;
+      }
+
+      .starter-template {
+        position: absolute;
+        top: 50px;
+        left: 200px;
+        right: 80px;
+      }
+
+      #v-pills-tabContent{
+        position: absolute;
+        left: 20px;
+      }
+
+      .homeLink{
+        position: relative;
+        left: 55px;
+      }
+
+      .footer-nav{
+        position: relative;
+        top: 150px;
+        left: 185px;
+      }
+
+      .nav-item{
+        position: relative;
+        top: 110px;
+        right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar-">
+      <div class="container-fluid-nav text-center">
+        <!-- <span class="navbar-brand mb-0 h1"></span> -->
+        <h2 id="navText">Welcome!</h2>
+      </div>
+    </nav>
+
+
+    <!-- Table of Content -->
+    <div
+      class="nav flex-column nav-pills"
+      id="v-pills-tab"
+      role="tablist"
+      aria-orientation="vertical"
+      style="width: 180px"
+    >
+      <p style="padding: 10px; font-weight: bold">Table of Content</p>
+      <a
+        class="nav-link"
+        id="v-pills-home-tab"
+        data-toggle="pill"
+        href="Profile Page.html"
+        role="tab"
+        aria-controls="v-pills-home"
+        aria-selected="true"
+        >Profile</a
+      >
+      <a
+        class="nav-link active"
+        id="v-pills-profile-tab"
+        data-toggle="pill"
+        href="#v-pills-profile"
+        role="tab"
+        aria-controls="v-pills-profile"
+        aria-selected="false"
+        >Education</a
+      >
+      <a
+        class="nav-link"
+        id="v-pills-messages-tab"
+        data-toggle="pill"
+        href="#v-pills-messages"
+        role="tab"
+        aria-controls="v-pills-messages"
+        aria-selected="false"
+        >Working Experience</a
+      >
+      <a
+        class="nav-link"
+        id="v-pills-settings-tab"
+        data-toggle="pill"
+        href="#v-pills-settings"
+        role="tab"
+        aria-controls="v-pills-settings"
+        aria-selected="false"
+        >Additional Skill</a
+      >
+      <a
+        class="nav-link"
+        id="v-pills-profile-tab"
+        data-toggle="pill"
+        href="#v-pills-profile"
+        role="tab"
+        aria-controls="v-pills-profile"
+        aria-selected="false"
+        >Interest</a
+      >
+      <a
+        class="nav-link"
+        id="v-pills-messages-tab"
+        data-toggle="pill"
+        href="#v-pills-messages"
+        role="tab"
+        aria-controls="v-pills-messages"
+        aria-selected="false"
+        >Organization Experience</a
+      >
+    </div>
+
+    <!-- Socmed Icon -->
+    <div class="tab-content" id="v-pills-tabContent">
+      <br/>
+      <br/>
+      <br/>
+      <a href="https://www.linkedin.com/in/indira-wulandari-761101230/">
+        <img alt="Linkedin" src="Linkedin.png"
+        class="rounded-circle"
+        width="30px"
+        >
+      <a/>
+      <a href="https://mail.google.com/mail/">
+        <img src="gmail.png" alt="gmail"
+        class="rounded-circle"
+        width="35px"
+        >
+      </a>
+      <a href="https://www.instagram.com/indira512/">
+        <img src="ig.png" alt="instagram"
+        class="rounded-circle"
+        width="30px">
+      </a>
+      <a href="https://web.facebook.com/indira.wulandari.71/">
+        <img src="facebook.png" alt="facebook"
+        class="rounded-circle"
+        width="30px">
+      </a>
+
+      <br/>
+      <br/>
+      <a class="homeLink" href="Indira's Profile Page.html" style="color: black;">
+        <u />home
+      </a>
+    </div>
+
+    <main role="main" class="container">
+      <div class="starter-template">
+        <h2 style="font-family: cursive; text-align: left">Education</h2>
+        <br />
+        <br/>
+        <br/>
+
+        <section>
+          <div class="align-left"></div>
+        <div class="text-left">
+          <img src="TelU.jpg" alt="Foto aku" width="300" />
+        </div>
+        <br />
+        <p
+          class="lead"
+          ,
+          style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            text-align: justify;
+            justify-content: center;
+          "
+        >
+          I am a student majoring in informatics, class of 2020 at telkom
+          Univerity, Bandung. I choose to enroll in informatics because when I
+          was a kid, I love to play games. Also, my father and his brother is
+          working in computer field. That makes me want to be like them. I love
+          computer :D hehe
+        </p>
+        </section>
+        
+      </div>
+    </main>
+
+
+    <!-- footer nav -->
+      <section>
+        <nav class="footer-nav">
+          <!-- <a class="nav-link active" href="#">Active</a> -->
+          <a class="nav-link" href="Profile Page.html">Profile</a>
+
+        </nav>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Working Experience</a>
+          </li>
+        </ul>
+  </body>
+</html>

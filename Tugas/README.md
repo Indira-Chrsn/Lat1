@@ -53,7 +53,7 @@ until finished
 ### Download Google Chrome or other web browser
 
 ```
-Open Indira_Wulandari.html file
+Open < Indira's Profile Page.html > file
 ```
 
 ### And coding style tests
@@ -74,10 +74,10 @@ Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
+- [Bootstrap](https://getbootstrap.com/) - Design Ideas
+<!-- - [Express](https://expressjs.com/) - Server Framework
 - [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [NodeJs](https://nodejs.org/en/) - Server Environment -->
 
 ## ✍️ Authors <a name = "authors"></a>
 
